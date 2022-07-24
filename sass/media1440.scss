@@ -1,0 +1,46 @@
+@media (min-width: 678px) {
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+      display: flex;
+      margin-top: 176px;
+      height: 438px;
+
+      .item-photo {
+        background-image: url("../images/image-product-desktop.jpg");
+        height: 100%;
+        border-radius: 12px 0px 0px 12px;
+      }
+
+      .item-info {
+        width: 334px;
+        height: 414px;
+        border-radius: 0px 12px 12px 0px;
+
+        .info-container {
+          width: 72%;
+
+          h6 {
+            margin-top: 10px;
+          }
+          .info {
+            margin-top: 14px;
+
+            button {
+              cursor: pointer;
+              margin-top: 24px;
+              &:hover {
+                background-color: #1a4031;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

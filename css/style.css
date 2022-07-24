@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.attribution {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.container .card {
+  margin-top: 26px;
+}
+.container .card .item-photo {
+  background-image: url("../images/image-product-mobile.jpg");
+  width: 337px;
+  height: 240px;
+  background-size: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+.container .card .item-info {
+  background-color: #fff;
+  padding-top: 24px;
+  height: 348px;
+  border-radius: 0px 0px 12px 12px;
+}
+.container .card .item-info .info-container {
+  width: 88%;
+  margin: auto;
+}
+.container .card .item-info .info-container h6 {
+  letter-spacing: 5px;
+  font-size: 12px;
+  color: #7e7e86;
+  font-weight: 500;
+}
+.container .card .item-info .info-container .info {
+  margin-top: 10px;
+}
+.container .card .item-info .info-container .info h1 {
+  font-family: "Fraunces", serif;
+  line-height: 1.1;
+}
+.container .card .item-info .info-container .info .description {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #7e7e86;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.container .card .item-info .info-container .info .price {
+  margin-top: 24px;
+  font-family: "Fraunces", serif;
+  color: hsl(158deg, 36%, 37%);
+  font-size: 32px;
+  font-weight: 600;
+}
+.container .card .item-info .info-container .info .price span {
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #7e7e86;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-top: 12px;
+  text-decoration: line-through;
+}
+.container .card .item-info .info-container .info button {
+  position: relative;
+  width: 100%;
+  margin-top: 13px;
+  height: 48px;
+  border: none;
+  background-color: hsl(158deg, 36%, 37%);
+  border-radius: 10px;
+}
+.container .card .item-info .info-container .info button .btn-text {
+  margin-left: 16px;
+}
+.container .card .item-info .info-container .info button span {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+.container .card .item-info .info-container .info button img {
+  position: absolute;
+  margin-left: -26px;
+  width: 18px;
+  margin-top: -1px;
+}
+
+@media (min-width: 678px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 176px;
+    height: 438px;
+  }
+  .container .card .item-photo {
+    background-image: url("../images/image-product-desktop.jpg");
+    height: 100%;
+    border-radius: 12px 0px 0px 12px;
+  }
+  .container .card .item-info {
+    width: 334px;
+    height: 414px;
+    border-radius: 0px 12px 12px 0px;
+  }
+  .container .card .item-info .info-container {
+    width: 72%;
+  }
+  .container .card .item-info .info-container h6 {
+    margin-top: 10px;
+  }
+  .container .card .item-info .info-container .info {
+    margin-top: 14px;
+  }
+  .container .card .item-info .info-container .info button {
+    cursor: pointer;
+    margin-top: 24px;
+  }
+  .container .card .item-info .info-container .info button:hover {
+    background-color: #1a4031;
+  }
+}
