@@ -1,6 +1,9 @@
 # Frontend Mentor - Product Preview Card Component solution
 
-This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/Product-preview-card-component). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![Design preview for the Clipboard landing page coding challenge](./images/desktop-preview.jpg)
+
+## Welcome! 👋
+Thanks for checking out this front-end coding challenge.
 
 ## Overview
 
@@ -22,7 +25,10 @@ This is a solution to the [Product Preview Card Component challenge on Frontend 
 - CSS Grid
 - Mobile-first workflow
 
-By Me :)
-Aous Shaheen
+## Author
 
-Thank you
+- Frontend Mentor - [@shaheen121](https://www.frontendmentor.io/profile/Shaheen121)
+- Facebook - [@aoushaheen7](https://www.facebook.com/shaheen7tl/)
+
+By me 🚀🚀🚀
+Aous Shaheen
